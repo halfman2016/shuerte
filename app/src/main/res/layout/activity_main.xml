@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TableLayout
+        android:layout_width="50mm"
+        android:layout_height="50mm"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10mm" >
+
+            <TextView
+                android:id="@+id/txtNum1"
+                android:layout_width="10mm"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNum2"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="txtNum3"
+                android:textAlignment="center"
+                tools:text="3" />
+
+            <TextView
+                android:id="@+id/txtNum4"
+                android:layout_width="10mm"
+                android:layout_height="10mm"
+                android:text="4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNum5"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10mm" >
+
+            <TextView
+                android:id="@+id/txtNum"
+                android:layout_width="10mm"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNum3"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="txtNum3"
+                android:textAlignment="center"
+                tools:text="3" />
+
+            <TextView
+                android:id="@+id/txtNum6"
+                android:layout_width="10mm"
+                android:layout_height="10mm"
+                android:text="4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNum7"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10mm" >
+
+            <TextView
+                android:id="@+id/txtNum8"
+                android:layout_width="10mm"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNum9"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="txtNum3"
+                android:textAlignment="center"
+                tools:text="3" />
+
+            <TextView
+                android:id="@+id/txtNum10"
+                android:layout_width="10mm"
+                android:layout_height="10mm"
+                android:text="4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNum11"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10mm" >
+
+            <TextView
+                android:id="@+id/txtNum12"
+                android:layout_width="10mm"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNum13"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="txtNum3"
+                android:textAlignment="center"
+                tools:text="3" />
+
+            <TextView
+                android:id="@+id/txtNum14"
+                android:layout_width="10mm"
+                android:layout_height="10mm"
+                android:text="4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNum15"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10mm">
+
+            <TextView
+                android:id="@+id/txtNum16"
+                android:layout_width="10mm"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNum17"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="txtNum3"
+                android:textAlignment="center"
+                tools:text="3" />
+
+            <TextView
+                android:id="@+id/txtNum18"
+                android:layout_width="10mm"
+                android:layout_height="10mm"
+                android:drawableRight="@android:color/holo_blue_bright"
+                android:fadingEdge="horizontal|vertical"
+                android:text="4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNum19"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
